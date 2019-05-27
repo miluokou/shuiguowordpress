@@ -1,0 +1,11 @@
+2019-05-27T15:08:57+00:00 CRITICAL Uncaught Exception: appid should not be NULL! in C:\xampp\htdocs\wp-content\plugins\woo-paygate-lite\alipay\pagepay\service\AlipayTradeService.php:46
+Stack trace:
+#0 C:\xampp\htdocs\wp-content\plugins\woo-paygate-lite\includes\class-alipay.php(175): AlipayTradeService->__construct(Array)
+#1 C:\xampp\htdocs\wp-includes\class-wp-hook.php(286): WPGate_Alipay->receipt_page(60)
+#2 C:\xampp\htdocs\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp-content\plugins\woocommerce\templates\checkout\order-receipt.php(44): do_action('woocommerce_rec...', 60)
+#5 C:\xampp\htdocs\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(201): wc_get_template('checkout/order-...', Array)
+#7 C:\xampp\htdocs\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortc in C:\xampp\htdocs\wp-content\plugins\woo-paygate-lite\alipay\pagepay\service\AlipayTradeService.php on line 46
+
